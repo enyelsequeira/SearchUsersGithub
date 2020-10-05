@@ -38,7 +38,6 @@ const GithubProvider = ({ children }) => {
       ])
         .then((results) => {
           const [repos, followers] = results;
-          const status = 'fulfilled';
           if (repos.status === 'fulfilled') {
             setRepos(repos.value.data);
           }
