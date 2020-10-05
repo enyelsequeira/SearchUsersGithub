@@ -1,0 +1,38 @@
+export default {
+  login: 'enyelsequeira',
+  id: 50872387,
+  node_id: 'MDQ6VXNlcjUwODcyMzg3',
+  avatar_url: 'https://avatars0.githubusercontent.com/u/50872387?v=4',
+  gravatar_id: '',
+  url: 'https://api.github.com/users/enyelsequeira',
+  html_url: 'https://github.com/enyelsequeira',
+  followers_url: 'https://api.github.com/users/enyelsequeira/followers',
+  following_url:
+    'https://api.github.com/users/enyelsequeira/following{/other_user}',
+  gists_url: 'https://api.github.com/users/enyelsequeira/gists{/gist_id}',
+  starred_url:
+    'https://api.github.com/users/enyelsequeira/starred{/owner}{/repo}',
+  subscriptions_url: 'https://api.github.com/users/enyelsequeira/subscriptions',
+  organizations_url: 'https://api.github.com/users/enyelsequeira/orgs',
+  repos_url: 'https://api.github.com/users/enyelsequeira/repos',
+  events_url: 'https://api.github.com/users/enyelsequeira/events{/privacy}',
+  received_events_url:
+    'https://api.github.com/users/enyelsequeira/received_events',
+  type: 'User',
+  site_admin: false,
+  name: 'Enyel Sequeira',
+  company: null,
+  blog: 'http://fullandstacked.com',
+  location: 'USA',
+  email: null,
+  hireable: null,
+  bio:
+    'I am a web developer looking to make an impact in the web development world',
+  twitter_username: null,
+  public_repos: 14,
+  public_gists: 0,
+  followers: 4,
+  following: 2,
+  created_at: '2019-05-21T12:12:40Z',
+  updated_at: '2020-10-03T17:04:01Z',
+};
