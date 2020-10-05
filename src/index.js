@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { GithubProvider } from './context/context';
 import { Auth0Provider } from '@auth0/auth0-react';
-
+require('dotenv').config();
 //domain// dev-gqxqw-4d.us.auth0.com
 //client// wdX07DT0Wsxh08VvkBSO7kq56exY9kD0
 ReactDOM.render(
@@ -13,7 +13,8 @@ ReactDOM.render(
     <Auth0Provider
       domain="dev-gqxqw-4d.us.auth0.com"
       clientId="wdX07DT0Wsxh08VvkBSO7kq56exY9kD0"
-      redirectUri={window.location.origin}>
+      redirectUri={window.location.origin}
+      cacheLocation="localstorage">
       <GithubProvider>
         <App />
       </GithubProvider>
